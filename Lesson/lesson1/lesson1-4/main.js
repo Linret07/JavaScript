@@ -1,0 +1,11 @@
+// let a = "'hello'";
+// let b = '"hello"';
+// console.log(a, b);
+// let c =`okten`;
+// console.log(c);
+let greeting = "Hello ";
+let intro = 'my name is halyna';
+let msg = greeting + intro;
+console.log(msg);
+let msg2 = `${greeting}${intro} hi`;
+console.log(msg2);
