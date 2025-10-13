@@ -6,15 +6,22 @@ let coursesAndDurationArray = [
     {title: 'FullStack', monthDuration: 7},
     {title: 'Frontend', monthDuration: 4}
 ]
-if (coursesAndDurationArray[0].monthDuration >= 5){
+if (coursesAndDurationArray[0].monthDuration > 5){
+    console.log(coursesAndDurationArray[0].title);
+    console.log('Super')
+}
+if (coursesAndDurationArray[1].monthDuration > 5){
+    console.log(coursesAndDurationArray[1].title);
     console.log('Super')}
-if (coursesAndDurationArray[1].monthDuration >= 5){
+if (coursesAndDurationArray[2].monthDuration > 5){
+    console.log(coursesAndDurationArray[2].title);
     console.log('Super')}
-if (coursesAndDurationArray[2].monthDuration >= 5){
+if (coursesAndDurationArray[3].monthDuration > 5){
+    console.log(coursesAndDurationArray[3].title);
     console.log('Super')}
-if (coursesAndDurationArray[3].monthDuration >= 5){
+if (coursesAndDurationArray[4].monthDuration > 5){
+    console.log(coursesAndDurationArray[4].title);
     console.log('Super')}
-if (coursesAndDurationArray[4].monthDuration >= 5){
-    console.log('Super')}
-if (coursesAndDurationArray[5].monthDuration >= 5){
+if (coursesAndDurationArray[5].monthDuration > 5){
+    console.log(coursesAndDurationArray[5].title);
     console.log('Super')}
