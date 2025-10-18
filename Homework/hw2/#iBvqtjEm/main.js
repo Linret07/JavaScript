@@ -1,5 +1,5 @@
-let x=0;
-if (x === 0 || x === null || x === undefined || x === '' || isNaN(x)) {
+let x;
+if(!x){
     x='default';
     console.log(x);
 }
