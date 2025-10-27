@@ -2,8 +2,8 @@
 function main() {
     document.write(`
 <ul>
-<li>Okten</li>
-<li>is</li>
+<li>super</li>
+<li>super</li>
 <li>super</li>
 </ul>
 `)
