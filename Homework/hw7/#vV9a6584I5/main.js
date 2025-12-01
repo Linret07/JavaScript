@@ -12,6 +12,7 @@ function Car(mode, producer, year, maxSpeed, engineVolume){
     this.year = year;
     this.maxSpeed = maxSpeed;
     this.engineVolume = engineVolume;
+
     this.drive=function (){
         console.log(`Їдeмо зі швидкістю ${this.maxSpeed} на годину`);
     };
@@ -37,3 +38,7 @@ console.log(car);
 
 car.drive();
 car.info();
+car.increaseMaxSpeed(100);
+car.changeYear(2000);
+car.addDriver({});
+console.log(car);
