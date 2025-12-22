@@ -1,0 +1,13 @@
+.course-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    margin: auto;
+    font-size: 30px;
+}
+.course-title, .course-duration{
+    background-color: #525265;
+    color: white;
+    border-radius: 5px;
+}
