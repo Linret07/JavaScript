@@ -9,7 +9,13 @@
 <input id="xxx" type ="number">
 <div id="result"></div>
 
-<script src="main.js"></script>
+<script>
+    const input = document.getElementById('xxx');
+    const resultDiv=document.getElementById('result');
+    input.oninput = function () {
+        resultDiv.innerHTML = +this.value * 2.2;
+    };
+</script>
 
 </body>
 </html>
