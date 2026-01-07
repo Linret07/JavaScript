@@ -2,15 +2,6 @@
 // Іншими словами : заповнили форму, натиснули кнопку, під формою з’явився блок з вашим об’єктом
 
 const someForm=document.forms.someForm;
-
-// const ageValue=someForm.sendButton;
-
-// sendButton.addEventListener("click",()=>{
-//     const nameValue=someForm.name.value;
-//     const surnameValue=someForm.surname.value;
-//     const ageValue=someForm.surname.age;
-//     let obj ={nameValue,surnameValue,ageValue};
-// })
 const target = document.getElementById('target');
 
 someForm.addEventListener('submit',(e)=>{

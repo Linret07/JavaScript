@@ -1,3 +1,5 @@
+// В localStorage зберігаються масиви. Вам потрібно зробити функцію, які дістає потрібний вам масив з localStorage та додає в нього об’єкт
+// сигнатура функції –
 function addToLocalStorage(arrayName, objToAdd) {
     const lsItem = localStorage.getItem(arrayName);
     if (!lsItem) {
